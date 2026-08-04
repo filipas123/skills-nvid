@@ -1333,6 +1333,42 @@
       }
     },
     {
+      "path": "skills/hsb-ip-create-top",
+      "name": "hsb-ip-create-top",
+      "description": "Create or explain fixed-format HSB FPGA_top.sv wrappers from validated HOLOLINK_def.svh files. Do not use for def generation or validation.",
+      "metadata": {
+        "product.primary": "Holoscan",
+        "classification.category.primary": "developer_tools",
+        "catalog.subdomain": "physical-ai",
+        "audience": "developer,application_developer,platform_engineer",
+        "discovery.activity_tags": "generate,configure,integrate"
+      }
+    },
+    {
+      "path": "skills/hsb-ip-def",
+      "name": "hsb-ip-def",
+      "description": "Generate, validate, compare, or explain HSB HOLOLINK_def.svh macros. Do not use for FPGA_top.sv wrappers or packetizer-only derivation. Generation runs bundled Python scripts locally through shell commands and writes validated .svh output files after user-confirmed paths.",
+      "metadata": {
+        "product.primary": "Holoscan",
+        "classification.category.primary": "physical_ai",
+        "catalog.subdomain": "physical-ai",
+        "audience": "developer,platform_engineer,application_developer,hands_on_builder",
+        "discovery.activity_tags": "generate,validate,configure,compare,integrate"
+      }
+    },
+    {
+      "path": "skills/hsb-ip-packetizer",
+      "name": "hsb-ip-packetizer",
+      "description": "Choose or explain HSB Sensor RX packetizer fields for HOLOLINK_def.svh. Do not use for full defs, validation, or runtime APB programming.",
+      "metadata": {
+        "product.primary": "Holoscan",
+        "classification.category.primary": "accelerated_computing",
+        "catalog.subdomain": "gpu-development",
+        "audience": "developer,platform_engineer,application_developer,hands_on_builder",
+        "discovery.activity_tags": "select,configure,generate,inspect"
+      }
+    },
+    {
       "path": "skills/hsb-setup",
       "name": "hsb-setup",
       "description": "Clone the latest NVIDIA Holoscan Sensor Bridge repo, ask which supported devkit is being used, configure the host per platform, build the correct demo container, run it, and verify HSB connectivity by pinging 192.168.0.2. Use for Holoscan Sensor Bridge setup, build, container launch, and first-connectivity bring-up.",
